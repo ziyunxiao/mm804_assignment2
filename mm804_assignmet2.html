@@ -14565,6 +14565,33 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Readme">Readme<a class="anchor-link" href="#Readme">&#182;</a></h1><p>The VTK version installed is <code>9.1.0</code></p>
+<h2 id="Prequirements">Prequirements<a class="anchor-link" href="#Prequirements">&#182;</a></h2><ol>
+<li>Python3.9</li>
+</ol>
+<h2 id="Setup-Environment">Setup Environment<a class="anchor-link" href="#Setup-Environment">&#182;</a></h2><p>The following commands are based on Windows 10.</p>
+<ol>
+<li>Clone the project. <code>git clone https://github.com/ziyunxiao/mm804_assignment2.git</code></li>
+<li>cd project folder <code>cd mm804_assignment2</code></li>
+<li>Create virtual environment <code>Python -m venv .venv</code></li>
+<li>Activate virtual environment <code>. .venv/bin/</code></li>
+<li>Upgrade pip <code>pip install --upgrade pip</code></li>
+<li>Install required library <code>pip install -r requirements.txt</code></li>
+</ol>
+<h2 id="Run-the-code">Run the code<a class="anchor-link" href="#Run-the-code">&#182;</a></h2><ol>
+<li>run  <code>python mm804_assignmet2.ipynb</code>.</li>
+<li>You can then use mouse to rotate the model and watch it from different angle. </li>
+<li>You can zoom in and out with the mouse middle wheel. </li>
+<li>You need close the popup window in order to end the program.</li>
+</ol>
+<h2 id="View-the-report">View the report<a class="anchor-link" href="#View-the-report">&#182;</a></h2><p>please read <code>mm804_assignmet2.pdf</code> or from the output of <code>mm804_assignmet2.ipynb</code></p>
+
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="1.-detail-info-about-the-model">1. detail info about the model<a class="anchor-link" href="#1.-detail-info-about-the-model">&#182;</a></h1><p>The model is dolphin, from Microsoft Pain3d free library.<br>
 The file name is <code>dolphin.stl</code>.<br>
 The file size is <code>776,584</code> bytes<br>
@@ -14642,39 +14669,26 @@ Rest Data: Nubmer of Cells:9116 Number of Points 7889</code></pre>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Collecting vtk==9.1.0
   Using cached https://www.vtk.org/files/release/9.1/vtk-9.1.0-cp39-cp39-win_amd64.whl (44.7 MB)
-Requirement already satisfied: wslink&gt;=1.0.4 in c:\java\python39\lib\site-packages (from vtk==9.1.0) (1.3.1)
 Requirement already satisfied: matplotlib&gt;=2.0.0 in c:\java\python39\lib\site-packages (from vtk==9.1.0) (3.5.1)
+Requirement already satisfied: wslink&gt;=1.0.4 in c:\java\python39\lib\site-packages (from vtk==9.1.0) (1.3.1)
 Requirement already satisfied: numpy&gt;=1.17 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (1.22.0)
-Requirement already satisfied: python-dateutil&gt;=2.7 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (2.8.2)
-Requirement already satisfied: cycler&gt;=0.10 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (0.11.0)
-Requirement already satisfied: packaging&gt;=20.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (21.3)
-Requirement already satisfied: pyparsing&gt;=2.2.1 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (3.0.6)
 Requirement already satisfied: fonttools&gt;=4.22.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (4.28.5)
 Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (1.3.2)
+Requirement already satisfied: pyparsing&gt;=2.2.1 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (3.0.6)
 Requirement already satisfied: pillow&gt;=6.2.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (9.0.0)
+Requirement already satisfied: packaging&gt;=20.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (21.3)
+Requirement already satisfied: cycler&gt;=0.10 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (0.11.0)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (2.8.2)
 Requirement already satisfied: aiohttp in c:\java\python39\lib\site-packages (from wslink&gt;=1.0.4-&gt;vtk==9.1.0) (3.8.1)
 Requirement already satisfied: six&gt;=1.5 in c:\java\python39\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (1.16.0)
-Requirement already satisfied: yarl&lt;2.0,&gt;=1.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (1.7.2)
-Requirement already satisfied: attrs&gt;=17.3.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (21.4.0)
+Requirement already satisfied: charset-normalizer&lt;3.0,&gt;=2.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (2.0.10)
 Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (5.2.0)
 Requirement already satisfied: aiosignal&gt;=1.1.2 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (1.2.0)
+Requirement already satisfied: attrs&gt;=17.3.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (21.4.0)
 Requirement already satisfied: frozenlist&gt;=1.1.1 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (1.2.0)
-Requirement already satisfied: charset-normalizer&lt;3.0,&gt;=2.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (2.0.10)
+Requirement already satisfied: yarl&lt;2.0,&gt;=1.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (1.7.2)
 Requirement already satisfied: async-timeout&lt;5.0,&gt;=4.0.0a3 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (4.0.2)
 Requirement already satisfied: idna&gt;=2.0 in c:\java\python39\lib\site-packages (from yarl&lt;2.0,&gt;=1.0-&gt;aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (3.3)
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
-You should consider upgrading via the &#39;C:\Java\Python39\python.exe -m pip install --upgrade pip&#39; command.
 </pre>
 </div>
 </div>
@@ -14692,7 +14706,9 @@ You should consider upgrading via the &#39;C:\Java\Python39\python.exe -m pip in
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">vtk</span>
+<span class="kn">import</span> <span class="nn">sys</span>
 
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Python Version: </span><span class="si">{</span><span class="n">sys</span><span class="o">.</span><span class="n">version</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">vtk</span><span class="o">.</span><span class="n">vtkVersion</span><span class="p">()</span><span class="o">.</span><span class="n">GetVTKSourceVersion</span><span class="p">())</span>
 </pre></div>
 
@@ -14715,7 +14731,8 @@ You should consider upgrading via the &#39;C:\Java\Python39\python.exe -m pip in
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>vtk version 9.1.0
+<pre>Python Version: 3.9.9 (tags/v3.9.9:ccb0e6a, Nov 15 2021, 18:08:50) [MSC v.1929 64 bit (AMD64)]
+vtk version 9.1.0
 </pre>
 </div>
 </div>
@@ -14757,7 +14774,7 @@ You should consider upgrading via the &#39;C:\Java\Python39\python.exe -m pip in
 <span class="n">plane</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkPlane</span><span class="p">()</span>
 <span class="c1"># plane.SetOrigin(0, 0, 0)</span>
 <span class="n">plane</span><span class="o">.</span><span class="n">SetOrigin</span><span class="p">(</span><span class="n">center</span><span class="p">)</span>
-<span class="n">plane</span><span class="o">.</span><span class="n">SetNormal</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">plane</span><span class="o">.</span><span class="n">SetNormal</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">)</span>
 
 
 <span class="n">clipper</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkClipPolyData</span><span class="p">()</span>
@@ -14904,8 +14921,8 @@ You should consider upgrading via the &#39;C:\Java\Python39\python.exe -m pip in
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Original Data: Nubmer of Cells:15530 Number of Points 7767
-clipped data: Nubmer of Cells:6658 Number of Points 7889
-Rest Data: Nubmer of Cells:9116 Number of Points 7889
+clipped data: Nubmer of Cells:6673 Number of Points 7890
+Rest Data: Nubmer of Cells:9103 Number of Points 7890
 </pre>
 </div>
 </div>
@@ -14914,23 +14931,6 @@ Rest Data: Nubmer of Cells:9116 Number of Points 7889
 
 </div>
 
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="5.-Readme">5. Readme<a class="anchor-link" href="#5.-Readme">&#182;</a></h1><p>The VTK version installed is <code>9.1.0</code></p>
-<h2 id="Prequirements">Prequirements<a class="anchor-link" href="#Prequirements">&#182;</a></h2><ol>
-<li>Python3.8 (The following command is based on Windows)</li>
-<li>Create virtual environment <code>Python3.8 -m venv .venv</code></li>
-<li>Upgrade pip <code>python -m pip install --upgrade pip</code></li>
-<li>The VKT version is 9.1.0</li>
-</ol>
-<h2 id="View-the-report">View the report<a class="anchor-link" href="#View-the-report">&#182;</a></h2><p>please read <code>mm804_assignmet2.pdf</code></p>
-<h2 id="Run-the-code">Run the code<a class="anchor-link" href="#Run-the-code">&#182;</a></h2><p>The Report is using this Jupter report, so please run the <code>mm804_assignmet2.ipynb</code>
-One of the cell has VTK install command.</p>
-
-</div>
-</div>
 </div>
 </body>
 
