@@ -14604,10 +14604,11 @@ Number Of Cells: 15530</p>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="2.-Information-of-each-part">2. Information of each part<a class="anchor-link" href="#2.-Information-of-each-part">&#182;</a></h1>
-<pre><code>Original Data: Nubmer of Cells:15530 Number of Points 7767
-clipped data: Nubmer of Cells:6658 Number of Points 7889
-Rest Data: Nubmer of Cells:9116 Number of Points 7889</code></pre>
+<h1 id="2.-Number-of-each-part">2. Number of each part<a class="anchor-link" href="#2.-Number-of-each-part">&#182;</a></h1>
+<pre><code>Number of points on the original object = 7767
+Number of points on the remaining part = 4614
+Number of points on the clipped part = 3399
+Number of points on the sliced area = 123</code></pre>
 
 </div>
 </div>
@@ -14669,25 +14670,25 @@ Rest Data: Nubmer of Cells:9116 Number of Points 7889</code></pre>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Collecting vtk==9.1.0
   Using cached https://www.vtk.org/files/release/9.1/vtk-9.1.0-cp39-cp39-win_amd64.whl (44.7 MB)
-Requirement already satisfied: matplotlib&gt;=2.0.0 in c:\java\python39\lib\site-packages (from vtk==9.1.0) (3.5.1)
 Requirement already satisfied: wslink&gt;=1.0.4 in c:\java\python39\lib\site-packages (from vtk==9.1.0) (1.3.1)
+Requirement already satisfied: matplotlib&gt;=2.0.0 in c:\java\python39\lib\site-packages (from vtk==9.1.0) (3.5.1)
 Requirement already satisfied: numpy&gt;=1.17 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (1.22.0)
-Requirement already satisfied: fonttools&gt;=4.22.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (4.28.5)
-Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (1.3.2)
 Requirement already satisfied: pyparsing&gt;=2.2.1 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (3.0.6)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (4.28.5)
 Requirement already satisfied: pillow&gt;=6.2.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (9.0.0)
-Requirement already satisfied: packaging&gt;=20.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (21.3)
 Requirement already satisfied: cycler&gt;=0.10 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (0.11.0)
+Requirement already satisfied: packaging&gt;=20.0 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (21.3)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (1.3.2)
 Requirement already satisfied: python-dateutil&gt;=2.7 in c:\java\python39\lib\site-packages (from matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (2.8.2)
 Requirement already satisfied: aiohttp in c:\java\python39\lib\site-packages (from wslink&gt;=1.0.4-&gt;vtk==9.1.0) (3.8.1)
 Requirement already satisfied: six&gt;=1.5 in c:\java\python39\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib&gt;=2.0.0-&gt;vtk==9.1.0) (1.16.0)
-Requirement already satisfied: charset-normalizer&lt;3.0,&gt;=2.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (2.0.10)
-Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (5.2.0)
-Requirement already satisfied: aiosignal&gt;=1.1.2 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (1.2.0)
 Requirement already satisfied: attrs&gt;=17.3.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (21.4.0)
 Requirement already satisfied: frozenlist&gt;=1.1.1 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (1.2.0)
+Requirement already satisfied: aiosignal&gt;=1.1.2 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (1.2.0)
 Requirement already satisfied: yarl&lt;2.0,&gt;=1.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (1.7.2)
+Requirement already satisfied: charset-normalizer&lt;3.0,&gt;=2.0 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (2.0.10)
 Requirement already satisfied: async-timeout&lt;5.0,&gt;=4.0.0a3 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (4.0.2)
+Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in c:\java\python39\lib\site-packages (from aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (5.2.0)
 Requirement already satisfied: idna&gt;=2.0 in c:\java\python39\lib\site-packages (from yarl&lt;2.0,&gt;=1.0-&gt;aiohttp-&gt;wslink&gt;=1.0.4-&gt;vtk==9.1.0) (3.3)
 </pre>
 </div>
@@ -14760,16 +14761,15 @@ vtk version 9.1.0
 <span class="c1"># 1. Read model</span>
 <span class="n">reader</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkSTLReader</span><span class="p">()</span>
 <span class="n">reader</span><span class="o">.</span><span class="n">SetFileName</span><span class="p">(</span><span class="s2">&quot;dolphin.stl&quot;</span><span class="p">)</span>
-<span class="n">reader</span><span class="o">.</span><span class="n">Update</span><span class="p">()</span>
-<span class="n">poly_data</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span>
-
 
 <span class="n">normals</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkPolyDataNormals</span><span class="p">()</span>
-<span class="c1"># normals.SetInputConnection(reader.GetOutputPort())</span>
-<span class="n">normals</span><span class="o">.</span><span class="n">AddInputData</span><span class="p">(</span><span class="n">poly_data</span><span class="p">)</span>
+<span class="n">normals</span><span class="o">.</span><span class="n">SetInputConnection</span><span class="p">(</span><span class="n">reader</span><span class="o">.</span><span class="n">GetOutputPort</span><span class="p">())</span>
+<span class="n">normals</span><span class="o">.</span><span class="n">Update</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Number of points on the original object =&quot;</span><span class="p">,</span><span class="n">reader</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span><span class="o">.</span><span class="n">GetNumberOfPoints</span><span class="p">())</span>
 
 <span class="c1"># 2. set Plane center to model center</span>
-<span class="n">center</span> <span class="o">=</span> <span class="n">poly_data</span><span class="o">.</span><span class="n">GetCenter</span><span class="p">()</span>
+<span class="n">center</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span><span class="o">.</span><span class="n">GetCenter</span><span class="p">()</span>
 
 <span class="n">plane</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkPlane</span><span class="p">()</span>
 <span class="c1"># plane.SetOrigin(0, 0, 0)</span>
@@ -14781,13 +14781,25 @@ vtk version 9.1.0
 <span class="n">clipper</span><span class="o">.</span><span class="n">SetInputConnection</span><span class="p">(</span><span class="n">normals</span><span class="o">.</span><span class="n">GetOutputPort</span><span class="p">())</span>
 <span class="n">clipper</span><span class="o">.</span><span class="n">SetClipFunction</span><span class="p">(</span><span class="n">plane</span><span class="p">)</span>
 <span class="n">clipper</span><span class="o">.</span><span class="n">GenerateClipScalarsOn</span><span class="p">()</span>
-<span class="n">clipper</span><span class="o">.</span><span class="n">GenerateClippedOutputOn</span><span class="p">()</span>
+<span class="n">clipper</span><span class="o">.</span><span class="n">GenerateClippedOutputOff</span><span class="p">()</span>
+<span class="n">clipper</span><span class="o">.</span><span class="n">SetValue</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 
 <span class="c1"># 3. set clipper value</span>
-<span class="n">clipper</span><span class="o">.</span><span class="n">SetValue</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">clipper</span><span class="o">.</span><span class="n">SetInsideOut</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">clipper</span><span class="o">.</span><span class="n">Update</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span>
+    <span class="s2">&quot;Number of points on the remaining part =&quot;</span><span class="p">,</span> <span class="n">clipper</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span><span class="o">.</span><span class="n">GetNumberOfPoints</span><span class="p">()</span>
+<span class="p">)</span>
+<span class="n">clipper</span><span class="o">.</span><span class="n">SetInsideOut</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">clipper</span><span class="o">.</span><span class="n">Update</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Number of points on the clipped part =&quot;</span><span class="p">,</span> <span class="n">clipper</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span><span class="o">.</span><span class="n">GetNumberOfPoints</span><span class="p">())</span>
+
+<span class="n">clipper</span><span class="o">.</span><span class="n">GenerateClippedOutputOn</span><span class="p">()</span>  <span class="c1"># turn this on for getting both parts</span>
+
+
 <span class="n">clipMapper</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkPolyDataMapper</span><span class="p">()</span>
 <span class="n">clip_data</span> <span class="o">=</span> <span class="n">clipper</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span>
-<span class="n">clipMapper</span><span class="o">.</span><span class="n">SetInputData</span><span class="p">(</span><span class="n">clip_data</span><span class="p">)</span>
+<span class="c1"># clipMapper.SetInputData(clip_data)</span>
 <span class="n">clipMapper</span><span class="o">.</span><span class="n">SetInputConnection</span><span class="p">(</span><span class="n">clipper</span><span class="o">.</span><span class="n">GetOutputPort</span><span class="p">())</span>
 <span class="n">clipMapper</span><span class="o">.</span><span class="n">ScalarVisibilityOff</span><span class="p">()</span>
 <span class="n">backProp</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkProperty</span><span class="p">()</span>
@@ -14806,6 +14818,11 @@ vtk version 9.1.0
 <span class="n">cutStrips</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkStripper</span><span class="p">()</span>
 <span class="n">cutStrips</span><span class="o">.</span><span class="n">SetInputConnection</span><span class="p">(</span><span class="n">cutEdges</span><span class="o">.</span><span class="n">GetOutputPort</span><span class="p">())</span>
 <span class="n">cutStrips</span><span class="o">.</span><span class="n">Update</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span>
+    <span class="s2">&quot;Number of points on the sliced area =&quot;</span><span class="p">,</span> <span class="n">cutStrips</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span><span class="o">.</span><span class="n">GetNumberOfPoints</span><span class="p">()</span>
+<span class="p">)</span>
+
 <span class="n">cutPoly</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkPolyData</span><span class="p">()</span>
 <span class="n">cutPoly</span><span class="o">.</span><span class="n">SetPoints</span><span class="p">(</span><span class="n">cutStrips</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span><span class="o">.</span><span class="n">GetPoints</span><span class="p">())</span>
 <span class="n">cutPoly</span><span class="o">.</span><span class="n">SetPolys</span><span class="p">(</span><span class="n">cutStrips</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span><span class="o">.</span><span class="n">GetLines</span><span class="p">())</span>
@@ -14814,7 +14831,9 @@ vtk version 9.1.0
 <span class="n">cutTriangles</span><span class="o">.</span><span class="n">SetInputData</span><span class="p">(</span><span class="n">cutPoly</span><span class="p">)</span>
 <span class="n">cutMapper</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkPolyDataMapper</span><span class="p">()</span>
 <span class="n">cutMapper</span><span class="o">.</span><span class="n">SetInputData</span><span class="p">(</span><span class="n">cutPoly</span><span class="p">)</span>
-<span class="n">cutMapper</span><span class="o">.</span><span class="n">SetInputConnection</span><span class="p">(</span><span class="n">cutTriangles</span><span class="o">.</span><span class="n">GetOutputPort</span><span class="p">())</span>
+<span class="n">cut_output</span> <span class="o">=</span> <span class="n">cutTriangles</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span>
+<span class="c1"># cutMapper.SetInputConnection(cutTriangles.GetOutputPort())</span>
+<span class="n">cutMapper</span><span class="o">.</span><span class="n">SetInputData</span><span class="p">(</span><span class="n">cut_output</span><span class="p">)</span>
 <span class="n">cutActor</span> <span class="o">=</span> <span class="n">vtk</span><span class="o">.</span><span class="n">vtkActor</span><span class="p">()</span>
 <span class="n">cutActor</span><span class="o">.</span><span class="n">SetMapper</span><span class="p">(</span><span class="n">cutMapper</span><span class="p">)</span>
 <span class="n">cutActor</span><span class="o">.</span><span class="n">GetProperty</span><span class="p">()</span><span class="o">.</span><span class="n">SetColor</span><span class="p">(</span><span class="n">banana</span><span class="p">)</span>
@@ -14851,7 +14870,7 @@ vtk version 9.1.0
 <span class="n">sampler</span><span class="o">.</span><span class="n">SetImplicitFunction</span><span class="p">(</span><span class="n">plane</span><span class="p">)</span>
 
 <span class="c1">#Set the bounds to be slightly larger</span>
-<span class="n">meshBounds</span> <span class="o">=</span> <span class="n">poly_data</span><span class="o">.</span><span class="n">GetBounds</span><span class="p">()</span>
+<span class="n">meshBounds</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">GetOutput</span><span class="p">()</span><span class="o">.</span><span class="n">GetBounds</span><span class="p">()</span>
 <span class="n">planeBounds</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">):</span>
     <span class="n">length</span> <span class="o">=</span> <span class="mf">1.2</span><span class="o">*</span><span class="p">(</span><span class="n">meshBounds</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">center</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
@@ -14885,19 +14904,6 @@ vtk version 9.1.0
 <span class="n">iren</span><span class="o">.</span><span class="n">Initialize</span><span class="p">()</span>
 <span class="n">renWin</span><span class="o">.</span><span class="n">Render</span><span class="p">()</span>
 
-<span class="c1"># output data</span>
-<span class="n">n1</span> <span class="o">=</span> <span class="n">poly_data</span><span class="o">.</span><span class="n">GetNumberOfCells</span><span class="p">()</span>
-<span class="n">n2</span> <span class="o">=</span> <span class="n">poly_data</span><span class="o">.</span><span class="n">GetNumberOfPoints</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Original Data: Nubmer of Cells:</span><span class="si">{</span><span class="n">n1</span><span class="si">}</span><span class="s2"> Number of Points </span><span class="si">{</span><span class="n">n2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-
-<span class="n">n3</span> <span class="o">=</span> <span class="n">clip_data</span><span class="o">.</span><span class="n">GetNumberOfCells</span><span class="p">()</span>
-<span class="n">n4</span> <span class="o">=</span> <span class="n">clip_data</span><span class="o">.</span><span class="n">GetNumberOfPoints</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;clipped data: Nubmer of Cells:</span><span class="si">{</span><span class="n">n3</span><span class="si">}</span><span class="s2"> Number of Points </span><span class="si">{</span><span class="n">n4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-
-<span class="n">n5</span> <span class="o">=</span> <span class="n">rest_data</span><span class="o">.</span><span class="n">GetNumberOfCells</span><span class="p">()</span>
-<span class="n">n6</span> <span class="o">=</span> <span class="n">rest_data</span><span class="o">.</span><span class="n">GetNumberOfPoints</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Rest Data: Nubmer of Cells:</span><span class="si">{</span><span class="n">n5</span><span class="si">}</span><span class="s2"> Number of Points </span><span class="si">{</span><span class="n">n6</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-
 <span class="n">iren</span><span class="o">.</span><span class="n">Start</span><span class="p">()</span>
 </pre></div>
 
@@ -14920,9 +14926,10 @@ vtk version 9.1.0
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Original Data: Nubmer of Cells:15530 Number of Points 7767
-clipped data: Nubmer of Cells:6673 Number of Points 7890
-Rest Data: Nubmer of Cells:9103 Number of Points 7890
+<pre>Number of points on the original object = 7767
+Number of points on the remaining part = 4614
+Number of points on the clipped part = 3399
+Number of points on the sliced area = 123
 </pre>
 </div>
 </div>
