@@ -1,12 +1,25 @@
-# Prequirements
-1. Python3.8 (The following command is based on Windows)
-2. Create virtual environment `Python3.8 -m venv .venv`
-3. Upgrade pip `python -m pip install --upgrade pip `
-4. Install package `pip install -r requirements`
-5. The VKT version is 9.1.0
+# Readme
+The VTK version installed is `9.1.0`
 
-# View the report
-please read `mm804_assignmet2.pdf`
+## Prequirements
+1. Python3.9
 
-# Run the code
-The Report is using Jupter report, so please run the `mm804_assignmet2.ipynb`
+## Setup Environment
+The following commands are based on Windows 10.
+
+1. Clone the project. `git clone https://github.com/ziyunxiao/mm804_assignment2.git`
+2. cd project folder `cd mm804_assignment2`
+3. Create virtual environment `Python -m venv .venv`
+4. Activate virtual environment `. .venv/bin/`
+5. Upgrade pip `pip install --upgrade pip`
+6. Install required library `pip install -r requirements.txt`
+
+## Run the code
+1. run  `python mm804_assignmet2.ipynb`.
+2. You can then use mouse to rotate the model and watch it from different angle. 
+3. You can zoom in and out with the mouse middle wheel. 
+4. You need close the popup window in order to end the program.
+
+## View the report
+please read `mm804_assignmet2.pdf` or from the output of `mm804_assignmet2.ipynb`
+
